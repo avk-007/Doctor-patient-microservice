@@ -1,0 +1,15 @@
+# Server configurations
+server:
+  port: 1001
+
+# Database configurations (Modify according to your database setup)
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/doctor_db?useSSL=false
+    username: root
+    password: test
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true

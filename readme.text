@@ -1,0 +1,14 @@
+steps i did
+# microservices
+
+- To implement the patient and doctor entities in spring boot microservices architecture Resttemplate.
+- gpt code
+- Patient Microservice : give complete code for entity,controller.repository,service.
+- Doctor Microservice : give complete code for entity,controller.repository,service.
+- Appointment Microservice : give complete code for entity,controller.repository,service.
+
+ ask ( Use Rest Template to connect patient  & doctor Microservice)
+
+ **in last project ie appointment --use resttemplate then added dependency to add patient and doctor entity
+ --sir uses doctor & patient by creating payload package and added dto classs for patient and doctor by removing entity
+ and give only @data annotation.
